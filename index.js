@@ -147,11 +147,18 @@ allBtn.addEventListener("click",showAllGames);
 const descriptionContainer = document.getElementById("description-container");
 
 // use filter or reduce to count the number of unfunded games
-
-
-// create a string that explains the number of unfunded games using the ternary operator
-
-
+const unfundedCount = GAMES_JSON.reduce((acc,game) =>{
+    return   game.pledged < game.goal ? acc+=1 : acc+=0
+},0);
+const totalFunds = GAMES_JSON.reduce((acc,game)=>{
+    return  acc += game.pledged 
+},0);
+const unfundedStr = `A total of $${totalFunds.toLocaleString()} has been raised for ${GAMES_JSON.length} games. 
+Currently, ${unfundedCount} ${unfundedCount === 1 ? "game remains" : "games remain"} unfunded. 
+We need your help to fund these amazing games!`;
+const fundCount = document.createElement("p");
+fundCount.innerHTML = unfundedStr;
+descriptionContainer.appendChild(fundCount);
 // create a new DOM element containing the template string and append it to the description container
 
 /************************************************************************************
