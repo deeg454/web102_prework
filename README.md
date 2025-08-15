@@ -22,22 +22,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+[🎥 Video Walkthrough](https://www.loom.com/share/95ff60ee57e54b3b9bc32bcc5aa24345)
 
-<iframe 
-  src="https://www.loom.com/embed/95ff60ee57e54b3b9bc32bcc5aa24345?sid=cd8fbb22-c947-4cc8-9262-6e8517f0792e"
-  width="640"
-  height="360"
-  frameborder="0"
-  allowfullscreen
-  title="Video Walkthrough">
-</iframe>
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
