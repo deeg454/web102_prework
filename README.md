@@ -34,7 +34,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+
 Ran into issues with filter and reduce when iterating acrooss array of games.
 
 ## License
